@@ -50,12 +50,12 @@ public class Solution {
         return ans;
     }
 
-    /***
-     * 寻找最长的无重复字符的字串 - 滑动窗口
-     * @param s
-     * @return
-     */
-    public int lengthOfLongestSubstring(String s) {
+        /***
+         * 寻找最长的无重复字符的字串 - 滑动窗口
+         * @param s
+         * @return
+         */
+        public int lengthOfLongestSubstring(String s) {
         if (s == null || s.isEmpty()) return 0;
         int ans = 0, start = 0, end = 0;
         Set<Character> set = new HashSet<>();

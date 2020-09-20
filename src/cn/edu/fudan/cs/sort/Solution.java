@@ -1,7 +1,6 @@
 package cn.edu.fudan.cs.sort;
 
 import java.util.Arrays;
-import java.util.concurrent.BlockingQueue;
 
 public class Solution {
     /***
